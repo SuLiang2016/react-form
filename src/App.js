@@ -4,14 +4,17 @@
  * @description: [description]
  * @Date: 2022-06-26 22:20:59
  * @LastModifiedBy: yunt.Su
- * @LastEditTime: 2022-06-26 22:43:17
+ * @LastEditTime: 2022-06-26 23:38:23
  */
-import './App.css';
+import './App.less';
+
+import AntdForm from './comp/AntdForm';
 
 function App() {
   return (
     <div className="App">
-        react-form
+        {/* react-form */}
+        <AntdForm></AntdForm>
     </div>
   );
 }
