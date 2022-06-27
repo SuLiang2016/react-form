@@ -1,20 +1,21 @@
 /*
  * @moduleName: 入口
  * @Author: yunt.Su
- * @description: [description]
  * @Date: 2022-06-26 22:20:59
  * @LastModifiedBy: yunt.Su
- * @LastEditTime: 2022-06-26 23:38:23
+ * @LastEditTime: 2022-06-27 23:58:32
  */
 import './App.less';
 
-import AntdForm from './comp/AntdForm';
+import AntdForm from './pages/AntdForm';
+import MyForm from './pages/MyForm';
 
 function App() {
   return (
     <div className="App">
         {/* react-form */}
-        <AntdForm></AntdForm>
+        {/* <AntdForm></AntdForm> */}
+        <MyForm/>
     </div>
   );
 }
