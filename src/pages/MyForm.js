@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import Form, { Field } from "rc-field-form";
-// import Form, { Field } from "../comp/my-rc-field-form/";
+// import Form, { Field } from "rc-field-form";
+import Form, { Field } from "../comp/my-rc-field-form/";
 import Input from "../comp/Input";
 
 const nameRules = { required: true, message: "请输入姓名！" };
 const passworRules = { required: true, message: "请输入密码！" };
 
-export default function myForm(props) {
+export default function MyForm(props) {
   const [form] = Form.useForm();
 
   const onFinish = (val) => {
